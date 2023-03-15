@@ -1,0 +1,62 @@
+* {
+    font-family: "new-kansas", sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+}
+
+.nav li{
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:visited{
+    color: black;
+}
+
+.nav{
+    padding: 0;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+.title-div {
+    padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.keelie-img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.main-title {
+    padding: 0;
+    margin: 0;
+}
+
+.sub-title{
+    padding: 0;
+    margin: 0;
+}
