@@ -1,6 +1,6 @@
 * {
     font-family: "new-kansas", sans-serif;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -34,29 +34,48 @@
     padding: 0;
 }
 
-.hero{
+.keelie-img {
+    float: left;
+    /* margin: 0 auto; */
+    margin-left: 0;
+    max-width: 500px;
+    max-height: auto;
+    transform: scaleX(-1);
+}
+
+.hero {
+    padding-top: 5%;
     display: flex;
     justify-content: center;
-}
-
-.title-div {
-    padding-top: 20%;
+    align-items: center;
+  }
+  
+  .title-div {
     display: flex;
     flex-direction: column;
-}
-
-
-.keelie-img {
-    max-width: 500px;
-    max-height: 500px;
-}
-
-.main-title {
-    padding: 0;
+  }
+  
+  .main-title, .sub-title, .start-btn{
     margin: 0;
-}
+  }
 
-.sub-title{
-    padding: 0;
-    margin: 0;
-}
+  .main-title{
+    font-size: 50px;
+  }
+
+  .sub-title{
+    font-size: 30px;
+    color: #686868;
+    font-weight: 200;
+  }
+  
+  .start-btn {
+    border-color: #686868;
+    color: #686868;
+    display: block;
+    float: left;
+    font-size: 20px;
+    padding: 5px;
+    width: 100px;
+    background-color: transparent;
+  }
