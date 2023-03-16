@@ -1,0 +1,1 @@
+document.getElementsByClassName("start-btn")
